@@ -8,7 +8,6 @@ public abstract class Weapons {
     protected String name, skillName;
     protected int atk, hp, def, spd, rarity;
     protected CharType type;
-    protected Skills skill;
 
     // getter-setter
     public String getName() {
@@ -41,10 +40,6 @@ public abstract class Weapons {
 
     public CharType getType() {
         return this.type;
-    }
-
-    public Skills getSkill() {
-        return this.skill;
     }
 
 }
